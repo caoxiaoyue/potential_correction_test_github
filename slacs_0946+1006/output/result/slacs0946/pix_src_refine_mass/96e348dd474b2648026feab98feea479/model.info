@@ -1,0 +1,31 @@
+Total Free Parameters = 6 
+
+model                                                                                     CollectionPriorModel (N=6)
+    galaxies                                                                              CollectionPriorModel (N=6)
+        lens                                                                              Galaxy (N=6)
+            mass                                                                          EllPowerLaw (N=4)
+            shear                                                                         ExternalShear (N=2)
+        source                                                                            Galaxy (N=0)
+            pixelization                                                                  DelaunayMagnification (N=0)
+            regularization                                                                Constant (N=0) 
+
+galaxies
+    lens
+        redshift                                                                          0.5
+        mass
+            centre                                                                        (0.0, 0.0)
+            elliptical_comps
+                elliptical_comps_0                                                        GaussianPrior, mean = 0.08531695831345283, sigma = 0.2
+                elliptical_comps_1                                                        GaussianPrior, mean = -0.09516147365203126, sigma = 0.2
+            einstein_radius                                                               GaussianPrior, mean = 1.40338408657102, sigma = 0.350846021642755
+            slope                                                                         GaussianPrior, mean = 2.2, sigma = 0.2
+        shear
+            elliptical_comps
+                elliptical_comps_0                                                        UniformPrior, lower_limit = -0.1, upper_limit = 0.1
+                elliptical_comps_1                                                        UniformPrior, lower_limit = -0.1, upper_limit = 0.1
+    source
+        redshift                                                                          1.0
+        pixelization
+            shape                                                                         (50, 50)
+        regularization
+            coefficient                                                                   6.32211064

@@ -1,0 +1,6 @@
+galaxies_lens_mass_elliptical_comps_0                                 \epsilon_{\rm 1}_
+galaxies_lens_mass_elliptical_comps_1                                 \epsilon_{\rm 2}_
+galaxies_lens_mass_einstein_radius                                    \theta_{\rm Ein}_
+galaxies_lens_mass_slope                                              \gamma_
+galaxies_lens_shear_elliptical_comps_0                                \epsilon_{\rm 1}_ext
+galaxies_lens_shear_elliptical_comps_1                                \epsilon_{\rm 2}_ext

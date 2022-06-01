@@ -1,0 +1,5 @@
+name=pix_src_refine_mass
+            non_linear_search=dynestystatic
+            name=pix_src_refine_mass
+            non_linear_search=dynestystatic
+            
